@@ -1,0 +1,39 @@
+# Core Data Science Libraries
+# Compatible with Python 3.13 (using pre-built wheels)
+pandas>=2.2.0
+numpy>=2.0.0
+scikit-learn>=1.4.0
+
+# NLP Libraries
+nltk>=3.8.1
+textblob>=0.17.1
+gensim>=4.3.0
+
+# Neural Networks and Deep Learning
+# tensorflow>=2.13.0  # Uncomment for LSTM models
+# transformers>=4.36.0  # Uncomment for BERT models
+# torch>=2.1.0  # Uncomment for BERT models
+#
+# For PyTorch (choose based on your system):
+# CPU: pip install torch --index-url https://download.pytorch.org/whl/cpu
+# GPU: pip install torch --index-url https://download.pytorch.org/whl/cu118
+#
+# Optional: Advanced NLP
+# spacy>=3.7.0
+# For spacy: pip install spacy
+# Then: python -m spacy download en_core_web_sm
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Utilities
+tqdm>=4.66.0
+joblib>=1.3.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.27.0
+notebook>=7.0.0
+
