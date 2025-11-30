@@ -40,12 +40,20 @@ nltk.download('wordnet')
 
 1. **Exploratory Data Analysis**: Understand data distribution, review lengths, rating distribution
 2. **Text Preprocessing**: Clean and normalize text data
-3. **Feature Engineering**: Create features from text (TF-IDF, embeddings, etc.)
+3. **Feature Engineering**: 
+   - TF-IDF vectorization with n-grams
+   - Word embeddings: Word2Vec, FastText, GloVe
 4. **Model Development**: 
-   - Baseline models Logistic Regression, Random Forest
-   - Advanced models LSTM, BERT, etc.
-5. **Ensemble**: Combine multiple models for better performance
-6. **Submission**: Generate predictions in required format
+   - Baseline models: Ridge Regression, Random Forest, Logistic Regression
+   - Neural networks: LSTM
+   - Transformer models: BERT
+5. **Model Optimization**:
+   - Hyperparameter tuning with GridSearchCV
+   - Cross-validation for robust performance estimation
+   - Feature importance analysis
+   - Error analysis and residual plots
+6. **Ensemble**: Combine multiple models (Ridge, Random Forest, Logistic Regression) for improved performance
+7. **Submission**: Generate predictions in required format
 
 ## Evaluation
 
