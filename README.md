@@ -1,6 +1,6 @@
 # Sentiment Analysis - Company Reviews
 
-Kaggle Competition: Predicting sentiment ratings 1-5 for company reviews using NLP techniques.
+Predicting sentiment ratings 1-5 for company reviews using NLP techniques.
 
 ## Competition Details
 
